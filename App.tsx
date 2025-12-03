@@ -1,9 +1,9 @@
-import React from 'react';
-import Hero from './components/Hero';
-import ImpactSources from './components/ImpactSources';
-import ImpactInfographic from './components/ImpactInfographic';
-import CharityGrid from './components/CharityGrid';
-import Footer from './components/Footer';
+import React from "react";
+import Hero from "./components/Hero";
+import ImpactSources from "./components/ImpactSources";
+import ImpactInfographic from "./components/ImpactInfographic";
+import CharityGrid from "./components/CharityGrid";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (

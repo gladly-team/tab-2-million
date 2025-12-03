@@ -17,7 +17,7 @@ interface ShareModalProps {
 const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, data }) => {
   if (!isOpen || !data) return null;
 
-  const shareUrl = "https://tab.gladly.io/million"; 
+  const shareUrl = "https://tab.gladly.io/2-million"; 
   const shareText = `${data.contextText} Check out the impact of Tab for a Cause:`;
 
   const handleShare = (platform: string) => {
@@ -110,7 +110,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, data }) => {
             </div>
 
             <div className="mt-auto text-center text-slate-400 text-sm font-medium">
-                tab.gladly.io/million
+                tab.gladly.io/2-million
             </div>
         </div>
 
