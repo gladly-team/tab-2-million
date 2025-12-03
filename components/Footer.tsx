@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
                 Made with <Heart className="w-4 h-4 text-red-500 mx-1 fill-current" /> by the Tab team
             </p>
             <div className="flex space-x-6">
-                <a href="#" className="text-slate-500 hover:text-white transition-colors">Privacy</a>
-                <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms</a>
-                <a href="#" className="text-slate-500 hover:text-white transition-colors">Contact</a>
+                <a href="https://tab.gladly.io/privacy-policy/" className="text-slate-500 hover:text-white transition-colors">Privacy</a>
+                <a href="https://tab.gladly.io/terms/" className="text-slate-500 hover:text-white transition-colors">Terms</a>
+                <a href="https://tab.gladly.io/contact/" className="text-slate-500 hover:text-white transition-colors">Contact</a>
             </div>
         </div>
       </div>
