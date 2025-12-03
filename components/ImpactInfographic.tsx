@@ -126,7 +126,7 @@ const ImpactInfographic: React.FC = () => {
 
                <div className="relative z-10 flex flex-col items-center text-center w-full max-w-md">
                    <div className="w-64 h-64 md:w-80 md:h-80 mb-12 relative -rotate-3 hover:rotate-0 transition-transform duration-500 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-3xl overflow-hidden border-4 border-white/10 bg-slate-800">
-                       <img src="/tab-2-million/plant-tree.jpeg" className="w-full h-full object-cover" alt="Planting Trees" />
+                       <img src="/2-million/plant-tree.jpeg" className="w-full h-full object-cover" alt="Planting Trees" />
                    </div>
 
                    <h3 className="font-display font-black text-5xl md:text-7xl text-white mb-2 leading-none drop-shadow-lg">100,000</h3>
@@ -138,7 +138,7 @@ const ImpactInfographic: React.FC = () => {
                         title: "Reforestation",
                         value: "100,000",
                         description: "Trees planted.",
-                        image: "/tab-2-million/plant-tree.jpeg",
+                        image: "/2-million/plant-tree.jpeg",
                         color: "bg-green-600",
                         contextText: "We've planted over 100,000 mangrove trees with Eden Reforestation Projects."
                     }} />
